@@ -8,9 +8,9 @@
 
 	$highestNumber = max($firstBoneNumber, $secondBoneNumber, $thirdBoneNumber);
 
-	echo "Первый бросок: $firstBoneNumber</br>";
-	echo "Второй бросок:  $secondBoneNumber</br>";
-	echo "Третий бросок: $thirdBoneNumber<br/>";
+	echo "Первый бросок: <b>$firstBoneNumber</b></br>";
+	echo "Второй бросок: <b>$secondBoneNumber</b></br>";
+	echo "Третий бросок: <b>$thirdBoneNumber</b><br/>";
 
-	echo "</br>Наибольшее выпавшее число: $highestNumber";
+	echo "</br>Наибольшее выпавшее число: <b>$highestNumber</b>";
 ?>
